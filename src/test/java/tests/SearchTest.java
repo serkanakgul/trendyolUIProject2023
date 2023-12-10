@@ -13,7 +13,7 @@ public class SearchTest extends BaseTest {
     SearchResultPage searchResultPage =new SearchResultPage();
 
     @Test
-    public void searchInputControls() throws InterruptedException {
+    public void searchInputControl() throws InterruptedException {
         mainPage.closeModal();
         mainPage.typeToSearchBox("ayakkabı");
         mainPage.clickSearchButton();
